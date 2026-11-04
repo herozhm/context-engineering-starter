@@ -1,0 +1,14 @@
+{
+  "checks": [
+    {
+      "name": "node-syntax",
+      "command": "node --check scripts/verify-changed.mjs",
+      "parser": "plain"
+    },
+    {
+      "name": "node-syntax-style",
+      "command": "node --check scripts/check-style.mjs",
+      "parser": "plain"
+    }
+  ]
+}
