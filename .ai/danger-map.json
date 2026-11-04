@@ -1,0 +1,23 @@
+{
+  "_comment": "危险地图:路径前缀 → 规则。AI 改动文件前按前缀匹配,命中即视为危险区,必须遵循 content 中的约束并执行 source 指向的回归清单。按你项目的真实危险区替换以下示例。",
+  "rules": [
+    {
+      "pathPrefix": "src/modules/payment/",
+      "level": "danger",
+      "content": "支付域:折扣计算在展示与结算两条链路各有一份,改折扣必须双链路验证;退款幂等键必须来自业务单号",
+      "source": ".ai/agents/example-domain.md"
+    },
+    {
+      "pathPrefix": "src/core/protocol/",
+      "level": "danger",
+      "content": "通信协议层:改动消息结构影响所有下游,必须先与消费方确认契约",
+      "source": "docs/protocol.md"
+    },
+    {
+      "pathPrefix": "src/ui/",
+      "level": "warn",
+      "content": "UI 层样式红线:禁新增 !important 与硬编码色值,须使用语义化 token(可用 scripts/check-style.mjs 自检)",
+      "source": ".ai/agents/README.md"
+    }
+  ]
+}
