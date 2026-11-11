@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+
+# 本仓库的 SKILL.md 是开源产品内容,不是内部配置——豁免全局忽略规则(~/.gitignore_global)
+!SKILL.md
