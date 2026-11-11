@@ -1,0 +1,19 @@
+{
+  "name": "context-engineering-starter",
+  "version": "0.1.0",
+  "description": "Scaffold for AI-era engineering: layered knowledge base, danger map, quality guardrails — make coding agents safe in large repositories. Zero dependency.",
+  "type": "module",
+  "scripts": {
+    "verify": "node scripts/verify-changed.mjs",
+    "check-style": "node scripts/check-style.mjs src"
+  },
+  "keywords": [
+    "context-engineering",
+    "claude-code",
+    "ai-coding",
+    "danger-map",
+    "guardrails",
+    "agent-skills"
+  ],
+  "license": "MIT"
+}
