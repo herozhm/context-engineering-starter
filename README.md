@@ -62,7 +62,7 @@ CLAUDE.md                       全局约束(常驻上下文):定位/不变量/�
 skills/
 ├── verify-before-commit/SKILL.md     示例 Skill:提交前校验流程
 ├── commit-discipline/SKILL.md        示例 Skill:提交纪律
-├── requirement-decompose/SKILL.md    Skill:需求拆解四步法(复述/影响面/分解/排序)
+├── requirement-decompose/SKILL.md    Skill:需求拆解五步法(复述/影响面/垂直切片/五件套任务/检查点)
 └── write-domain-doc/SKILL.md         Skill:问答式生成任务域知识文件(四要素)
 scripts/
 ├── verify-changed.mjs          增量校验(无输出≠通过 防呆)
